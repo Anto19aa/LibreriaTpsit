@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Libri</title>
+    <link rel="stylesheet" href="style4.css">
+</head>
+<body>
+    <div class="container">
+    
+
+        <div class="navbar">
+    
+            <img src="logo.png" alt="LogoSito" class="logo">
+    
+            <nav>
+    
+                <ul>
+                    <li><a href="Home.html" class="link">Home</a></li>
+                    <li><a href="Libreria.html" class="link">Libreria</a></li>
+                    <li><a href="Login.html" class="link">Login</a></li>
+                </ul>
+    
+            </nav>
+    
+        </div>
+
+    <br>
+    <br>
+
+    <h6>Libri Disponibili all'acquisto</h6>
+
+    <div class="card-container">
+        <div class="card">
+          <div class="card-inner">
+            <div class="card-front">
+              <img src="Don Chisciotte.jpg" alt="Immagine 1" style="width:100%; height:100%;">
+            </div>
+            <div class="card-back">
+              <p2>"Don Chisciotte" è un romanzo scritto da Miguel de Cervantes nel XVII secolo. Narra le avventure di Alonso Quijano, un nobile spagnolo che, dopo aver letto troppi libri di cavalleria, decide di diventare un cavaliere errante chiamandosi Don Chisciotte. Accompagnato dal suo fedele scudiero, Sancho Panza, Don Chisciotte intraprende una serie di viaggi immaginari in cui cerca di risolvere ingiustizie e ripristinare l'onore.</p2>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-inner">
+            <div class="card-front">
+              <img src="Guerra e pace.jpg" alt="Immagine 2" style="width:100%; height:100%;">
+            </div>
+            <div class="card-back">
+              <p2>
+                "Guerra e Pace" è un romanzo epico scritto da Lev Tolstoj nel XIX secolo. La trama segue le vicende di diverse famiglie nobili russe durante le invasioni napoleoniche in Russia. Al centro della storia ci sono Pierre Bezukhov, un giovane erede che cerca di trovare un senso nella vita, e Natasha Rostova, una giovane donna con una personalità vivace e passionale. .</p2>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+            <div class="card-inner">
+              <div class="card-front">
+                <img src="Il grande Gatsby.jpg" alt="Immagine 3" style="width:100%; height:100%;">
+              </div>
+              <div class="card-back">
+                <p2>"Il grande Gatsby" è un romanzo scritto da F. Scott Fitzgerald negli anni '20 del XX secolo. La storia è ambientata nell'America del dopoguerra, negli anni ruggenti degli anni '20, e segue le vicende di Jay Gatsby, un misterioso e ricco magnate, attraverso gli occhi del narratore, Nick Carraway.</p2>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-inner">
+              <div class="card-front">
+                <img src="Piccole donne.jpg" alt="Immagine 3" style="width:100%; height:100%;">
+              </div>
+              <div class="card-back">
+                <p2>"Piccole donne" è un romanzo scritto da Louisa May Alcott nel XIX secolo. La trama segue le vicende di quattro sorelle, Meg, Jo, Beth e Amy March, durante la loro crescita nell'America del XIX secolo, durante la guerra civile. Le quattro ragazze vivono con la madre, Marmee, mentre il padre è lontano per servire nell'esercito.</p2>
+              </div>
+            </div>
+          </div>
+
+          
+          <div class="card">
+            <div class="card-inner">
+              <div class="card-front">
+                <img src="Harry Potter e la Pietra Filosofale.jpg" alt="Immagine 4" style="width:100%; height:100%;">
+              </div>
+              <div class="card-back">
+                <p2>"Harry Potter e la Pietra Filosofale" è il primo romanzo della serie "Harry Potter" scritta da J.K. Rowling. La trama segue le avventure di un giovane mago di nome Harry Potter, che scopre di essere famoso nel mondo dei maghi per aver sopravvissuto a un attacco mortale da parte del malvagio stregone Lord Voldemort quando era solo un bambino.</p2>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-inner">
+              <div class="card-front">
+                <img src="Lo Hobbit.jpg" alt="Immagine 5" style="width:100%; height:100%;">
+              </div>
+              <div class="card-back">
+                <p2>Lo Hobbit narra le avventure di Bilbo Baggins, un hobbit casalingo, che viene coinvolto in un viaggio epico con nani e il mago Gandalf per recuperare un tesoro rubato dal drago Smaug. Durante il viaggio, Bilbo affronta pericoli, incontra creature magiche e scopre il suo coraggio interiore.</p2>
+              </div>
+            </div>
+
+            
+         
+        
+        
+      </div>
+
+      <button class="btn btn-left"><a href="Libreria.html">Indietro</a></button>
+      <button class="btn btn-right"><a href="Libreria3.html">Avanti</a></button>
+ 
+      
+
+    <script>
+        document.querySelectorAll('.card').forEach(card => {
+          card.addEventListener('click', function() {
+            this.querySelector('.card-inner').classList.toggle('is-flipped');
+          });
+        });
+      </script>
+      
+
+</body>
+</html>

@@ -1,0 +1,252 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: #3d3d3d;
+    background-position: center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+
+}
+
+.navbar{
+
+    height: 15%;
+    display: flex;
+    align-items: center;
+
+}
+
+.logo{
+
+    width: 65px;
+    cursor: pointer;
+    border-radius: 20%;
+
+}
+
+nav{
+
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+
+}
+
+nav ul li a{
+
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+
+nav ul li a:hover{
+
+    color: red;
+    transition: 0.6s;
+
+}
+
+.row{
+
+    display: flex;
+    height: 80%;
+    align-items: center;
+
+}
+
+.col{
+
+    flex-basis: 50%;
+    align-items: left;
+
+}
+
+h1{
+
+    color: whitesmoke;
+    font-size: 100px;
+
+}
+
+h2{
+
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+
+}
+
+h3{
+
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+    
+
+}
+
+h4{
+
+    color: rgb(240, 0, 0);
+    font-size: 30px;
+    
+
+}
+
+h5{
+
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    
+
+}
+
+h6{
+
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    text-align: center;
+    
+
+}
+
+p{
+
+    color: whitesmoke;
+    font-size: 11px;
+    line-height: 15px;
+    
+}
+
+p1{
+
+    color: whitesmoke;
+    font-size: 20px;
+    line-height: 15px;
+    
+    
+}
+
+p2{
+
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    line-height: 15px;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+button{
+
+    width: 180px;
+    color: black;
+    font-size: 12px;
+    padding: 12px 0;
+    background: whitesmoke;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+    transition: transform 1s;
+    position: absolute;
+    left: 1600px; /* Spazio a sinistra */
+    top: 80%; /* Allinea verticalmente al centro */
+    transform: translateY(50%); /* Corregge l'allineamento verticale */
+    
+
+}
+
+
+
+button a{
+
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    transition: transform 0.6s;
+    font-weight: bold;
+    
+
+}
+
+button:hover{
+
+    transform: translateY(-10px);
+
+}
+
+
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    width: 200px;
+    height: 300px;
+    perspective: 1000px;
+    margin: 28px;
+  }
+
+  .card-inner {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    cursor: pointer;
+  }
+
+  .card:hover .card-inner {
+    transform: rotateY(180deg);
+  }
+
+  .card-front, .card-back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #cacaca;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .card-back {
+    transform: rotateY(180deg);
+    padding: 20px;
+  }
+
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 50px;
+}
+.btn:hover {
+    background-color: #0056b3;
+}
+.btn-left {
+    position: absolute;
+    left: 50px;
+}
+.btn-right {
+    position: absolute;
+    right: 50px;
+}

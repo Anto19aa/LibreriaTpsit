@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Libri</title>
+    <link rel="stylesheet" href="style4.css">
+</head>
+<body>
+    <div class="container">
+    
+
+        <div class="navbar">
+    
+            <img src="logo.png" alt="LogoSito" class="logo">
+    
+            <nav>
+    
+                <ul>
+                    <li><a href="Home.html" class="link">Home</a></li>
+                    <li><a href="Libreria.html" class="link">Libreria</a></li>
+                    <li><a href="Login.html" class="link">Login</a></li>
+                </ul>
+    
+            </nav>
+    
+        </div>
+
+    <br>
+    <br>
+
+    <h6>Libri Disponibili all'acquisto</h6>
+
+    <div class="card-container">
+        <div class="card">
+          <div class="card-inner">
+            <div class="card-front">
+              <img src="illeone.jpg" alt="Immagine 1" style="width:100%; height:100%;">
+            </div>
+            <div class="card-back">
+              <p2>"Il Leone, la Strega e l'Armadio" è il primo libro della serie "Le Cronache di Narnia" di C.S. Lewis. Narra le avventure di quattro fratelli - Peter, Susan, Edmund e Lucy Pevensie - che, durante la seconda guerra mondiale, scoprono un mondo magico chiamato Narnia, raggiungibile attraverso un armadio incantato nella casa di campagna dello zio.</p2>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-inner">
+            <div class="card-front">
+              <img src="lostraniero.jpg" alt="Immagine 2" style="width:100%; height:100%;">
+            </div>
+            <div class="card-back">
+              <p2>
+                "Lo straniero" di Albert Camus segue la storia di Meursault, un uomo apatico e distaccato, che affronta la vita con indifferenza e fatalismo. Dopo aver ucciso un uomo senza motivo apparente, Meursault viene processato e condannato, ma sembra accettare il suo destino senza rimorso o emozione. Il romanzo esplora temi di estraneità, assurdità, e l'indifferenza dell'universo nei confronti dell'individuo.</p2>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+            <div class="card-inner">
+              <div class="card-front">
+                <img src="viola.jpg" alt="Immagine 3" style="width:100%; height:100%;">
+              </div>
+              <div class="card-back">
+                <p2>"Il colore viola" di Alice Walker segue la vita di Celie, una donna afroamericana nel sud degli Stati Uniti nel corso di diverse decadi. Attraverso una serie di lettere, Celie esprime le sue esperienze di abusi, oppressione e discriminazione, ma trova forza e libertà attraverso le relazioni con altre donne e la sua ricerca di autoidentità e indipendenza.</p2>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-inner">
+              <div class="card-front">
+                <img src="marghe.jpg" alt="Immagine 3" style="width:100%; height:100%;">
+              </div>
+              <div class="card-back">
+                <p2>
+                    "Il Maestro e Margherita" di Michail Bulgakov è una storia intricata che mescola la realtà e il soprannaturale a Mosca negli anni '30. Il romanzo segue le vicende del "Maestro", un autore tormentato, e della sua amante Margherita, insieme a una serie di personaggi stravaganti, tra cui il Diavolo in persona. </p2>
+              </div>
+            </div>
+          </div>
+
+          
+          <div class="card">
+            <div class="card-inner">
+              <div class="card-front">
+                <img src="rosa.jpg" alt="Immagine 4" style="width:100%; height:100%;">
+              </div>
+              <div class="card-back">
+                <p2>
+                    "Il nome della rosa" di Umberto Eco è ambientato in un'abbazia medievale, dove il frate francescano Guglielmo di Baskerville e il suo novizio Adso indagano su una serie di misteriosi omicidi. Attraverso indagini, enigmi e intrighi politici, Guglielmo svela segreti oscuri e conflitti religiosi, mentre la storia esplora temi di conoscenza, fede e potere.</p2>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-inner">
+              <div class="card-front">
+                <img src="100.jpg" alt="Immagine 5" style="width:100%; height:100%;">
+              </div>
+              <div class="card-back">
+                <p2>"Cent'anni di solitudine" di Gabriel García Márquez narra la saga della famiglia Buendía attraverso sette generazioni in Macondo, una città immaginaria. Il romanzo esplora il ciclo della vita, dell'amore, della guerra e della morte, mescolando il reale e il fantastico in una narrazione magica e coinvolgente.</p2>
+              </div>
+            </div>
+
+          
+      </div>
+
+
+       
+      <button class="btn btn-left"><a href="Libreria3.html">Indietro</a></button>
+      <button class="btn btn-right"><a href="#">Fine</a></button>
+      
+    
+
+
+  
+  
+
+      
+  
+      
+
+    <script>
+        document.querySelectorAll('.card').forEach(card => {
+          card.addEventListener('click', function() {
+            this.querySelector('.card-inner').classList.toggle('is-flipped');
+          });
+        });
+
+      </script>
+      
+
+</body>
+</html> 

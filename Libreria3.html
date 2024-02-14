@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Libri</title>
+    <link rel="stylesheet" href="style4.css">
+</head>
+<body>
+    <div class="container">
+    
+
+        <div class="navbar">
+    
+            <img src="logo.png" alt="LogoSito" class="logo">
+    
+            <nav>
+    
+                <ul>
+                    <li><a href="Home.html" class="link">Home</a></li>
+                    <li><a href="Libreria.html" class="link">Libreria</a></li>
+                    <li><a href="Login.html" class="link">Login</a></li>
+                </ul>
+    
+            </nav>
+    
+        </div>
+
+    <br>
+    <br>
+
+    <h6>Libri Disponibili all'acquisto</h6>
+
+    <div class="card-container">
+        <div class="card">
+          <div class="card-inner">
+            <div class="card-front">
+              <img src="ilpiccolo.jpg" alt="Immagine 1" style="width:100%; height:100%;">
+            </div>
+            <div class="card-back">
+              <p2>"Il Piccolo Principe" racconta di un incontro tra un aviatore bloccato nel deserto e un giovane principe proveniente da un piccolo asteroide. Attraverso le loro conversazioni, il principe racconta le sue esperienze e le sue osservazioni su varie stelle e pianeti visitati, offrendo saggezza sulla vita, l'amicizia e l'amore.</p2>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-inner">
+            <div class="card-front">
+              <img src="Ladiviva.jpg" alt="Immagine 2" style="width:100%; height:100%;">
+            </div>
+            <div class="card-back">
+              <p2>
+                "La Divina Commedia" di Dante Alighieri è un poema epico che narra il viaggio dell'autore attraverso Inferno, Purgatorio e Paradiso, guidato da Virgilio e Beatrice, alla ricerca della salvezza spirituale.</p2>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+            <div class="card-inner">
+              <div class="card-front">
+                <img src="il conte.jpg" alt="Immagine 3" style="width:100%; height:100%;">
+              </div>
+              <div class="card-back">
+                <p2>
+                  "Il Conte di Montecristo" segue la vendetta di Edmond Dantès, ingiustamente imprigionato, che sorge come il ricco e vendicativo Conte per punire i suoi traditori.</p2>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-inner">
+              <div class="card-front">
+                <img src="ilprocesso.jpg" alt="Immagine 3" style="width:100%; height:100%;">
+              </div>
+              <div class="card-back">
+                <p2>"Il processo" di Franz Kafka racconta la storia di Josef K., accusato di un crimine misterioso e costretto a navigare in un sistema giudiziario oppressivo e assurdo.</p2>
+              </div>
+            </div>
+          </div>
+
+          
+          <div class="card">
+            <div class="card-inner">
+              <div class="card-front">
+                <img src="cronache.jpg" alt="Immagine 4" style="width:100%; height:100%;">
+              </div>
+              <div class="card-back">
+                <p2>Le "Cronache di Narnia" di C.S. Lewis seguono le avventure di bambini che scoprono il magico mondo di Narnia, popolato da creature fantastiche e governato da Aslan.</p2>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-inner">
+              <div class="card-front">
+                <img src="ilvecchio.jpg" alt="Immagine 5" style="width:100%; height:100%;">
+              </div>
+              <div class="card-back">
+                <p2>"Il vecchio e il mare" di Ernest Hemingway racconta la lotta epica tra Santiago, un vecchio pescatore cubano, e un enorme marlin nel Golfo del Messico.</p2>
+              </div>
+            </div>
+
+          
+      </div>
+
+
+       
+      <button class="btn btn-left"><a href="Libreria2.html">Indietro</a></button>
+      <button class="btn btn-right"><a href="Libreria4.html">Avanti</a></button>
+    
+
+
+  
+  
+
+      
+  
+      
+
+    <script>
+        document.querySelectorAll('.card').forEach(card => {
+          card.addEventListener('click', function() {
+            this.querySelector('.card-inner').classList.toggle('is-flipped');
+          });
+        });
+
+      </script>
+      
+
+</body>
+</html> 
